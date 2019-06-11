@@ -5,4 +5,4 @@ const ErrorIndicator = () => {
   return  <div>Error!</div>;
   };
 
-  export default App
+  export default ErrorIndicator
