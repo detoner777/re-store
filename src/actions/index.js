@@ -1,10 +1,12 @@
 const booksLoaded = (newBooks) => {
 return {
     type: 'BOOKS_LOADED',
-    payloads: newBooks
+    payload: newBooks
  };
 };
 
 export {
     booksLoaded
 };
+
+

@@ -21,6 +21,6 @@ ReactDom.render(
                 </Router>
             </BookstoreServiceProvider>
         </ErrorBoundry>
-    </Provider>,
+    </Provider>, 
     document.getElementById('root')
 );
