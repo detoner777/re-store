@@ -3,11 +3,16 @@ export default class BookstoreService {
         return[
             { id: 1, 
               title: 'DarkElph',
-            author: 'Robert S' },
+              author: 'Robert S',
+              price: 19.99,
+              coverImage: "https://images-na.ssl-images-amazon.com/images/I/51pKVdnAKTL._SX327_BO1,204,203,200_.jpg"},
             
             { id: 2, 
               title: 'Lorf of the rings',
-              author: 'J.J. Tolkin' }
+              author: 'J.R. Tolkien',
+              price: 21.99,
+              coverImage: 'https://images-na.ssl-images-amazon.com/images/I/51bJhsl5VmL.jpg'
+               }
          ];
     }
 }
